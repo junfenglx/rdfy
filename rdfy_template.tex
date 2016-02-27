@@ -1,0 +1,42 @@
+\documentclass[]{article}
+\usepackage{nips15submit_e,times}
+\usepackage[colorlinks=true]{hyperref}
+\usepackage{url}
+
+
+% for math
+\usepackage{mathtools}
+
+% for pictures
+\usepackage{graphicx}
+
+% for code
+% \usepackage{minted}
+
+
+\usepackage{my_arch_ctex_fonts}
+
+
+%opening
+\title{
+    {{ article.til }} \\ \small {{ article.stil }}
+}
+
+\author{
+	{{ article.aut }} \\ {{ article.aino }} \\
+}
+
+\nipsfinalcopy % Uncomment for camera-ready version
+
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+{{ article.ast }}
+\end{abstract}
+
+\section{正文}
+{{ article.text }}
+\end{document}
